@@ -44,7 +44,7 @@ The aim of this project is to build and compare the performance of different mac
 - [Usage](#play_or_pause_button-usage)
 - [Results](#rocket-results)
 - [Conclusion](#construction-conclusion)
-- [License](#receipt-license)
+- [License](#balance_scale-license)
 - [Contact](#handshake-contact)
 
 
@@ -92,7 +92,7 @@ The dataset used in this project is the Pima Indians Diabetes Dataset, which can
 
 
 
-## :receipt: License
+## :balance_scale: License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
