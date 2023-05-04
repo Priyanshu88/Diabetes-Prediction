@@ -44,8 +44,10 @@ The aim of this project is to build and compare the performance of different mac
 - [Usage](#play_or_pause_button-usage)
 - [Results](#rocket-results)
 - [Conclusion](#construction-conclusion)
+- [Deployment](#triangular_flag_on_post-deployment)
 - [License](#balance_scale-license)
 - [Contact](#handshake-contact)
+
 
 
 <br/>
@@ -74,27 +76,63 @@ The dataset used in this project is the Pima Indians Diabetes Dataset, which can
 
 ## :toolbox: Dependecies
 
+`python 3.8.3`
+
+`pandas`
+
+`numpy`
+
+`sklearn`
+
+`matplotlib`
+
+`seaborn`
+
+`pickle`
 
 
 ## :gear: Installation
 
+Clone the repository and install the required dependencies using the following commands:
+
+```bash
+git clone https://github.com/Priyanshu88/Diabetes-Prediction.git
+```
+
+```bash
+cd Diabetes-Prediction
+```
 
 
 ## :play_or_pause_button: Usage
 
+The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and preprocessing the dataset, as well as implementing and evaluating the KNN, Logistic Regression, Random Forest, Support Vector Machine and Decision Tree models. To run the notebook, simply open it in Jupyter and run each cell in order.
 
 
-## :rocket: Results)
+## :rocket: Results
 
-
+| Model                                             | Accuracy |
+|---------------------------------------------------|----------|
+| K-Nearest Neighbour                               | 79.22%    |
+| Logistic Regression                               | 81.82%    |
+| Random Forest                                     | 79.22%    |
+| Support Vector Machine                            | 83.12%    |
+| Decision Tree                                     | 81.82%    |
+| Hypertuning - GridSearchCV on Logistic Regression | 83.12%    |
 
 ## :construction: Conclusion
 
+In this project, we compared the accuracy of five different machine learning models as well as hypertuning parameters for predicting diabetes based on various health criteria. We found that Support Vector Machine was the most accurate model, with an accuracy of 83.12%. The above results also tells that Logistic Regression and Decision Tree are also performing good and hypertuing on Logistic Regression increases its accuracy around 2%. This project could be further improved by testing additional models and/or including additional health criteria in the dataset.
+
+## :triangular_flag_on_post: Deployment
+
+Checkout the deployment repository [`here`](https://github.com/Priyanshu88/Diabestes-Prediction-Streamlit-App).
 
 
 ## :balance_scale: License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/Priyanshu88/Diabetes-Prediction/blob/main/LICENSE) file for details.
+
 
 ## :handshake: Contact
 
