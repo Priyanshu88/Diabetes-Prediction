@@ -111,6 +111,8 @@ The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and
 
 ## :rocket: Results
 
+<div align='center'>
+
 | Model                                             | Accuracy |
 |---------------------------------------------------|----------|
 | K-Nearest Neighbour                               | 79.22%    |
@@ -119,6 +121,8 @@ The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and
 | Support Vector Machine                            | 83.12%    |
 | Decision Tree                                     | 81.82%    |
 | Hypertuning - GridSearchCV on Logistic Regression | 83.12%    |
+
+</div>
 
 ## :construction: Conclusion
 
