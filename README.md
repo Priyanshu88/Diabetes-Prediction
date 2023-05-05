@@ -48,9 +48,8 @@ The aim of this project is to build and compare the performance of different mac
 - [License](#balance_scale-license)
 - [Contact](#handshake-contact)
 
-
-
 <br/>
+
 
 ## :signal_strength: Dataset
 
@@ -73,6 +72,8 @@ The dataset used in this project is the Pima Indians Diabetes Dataset, which can
 - Class Distribution: (class value 1 is interpreted as "tested positive for diabetes")
 
 
+<br/>
+
 
 ## :toolbox: Dependecies
 
@@ -91,6 +92,9 @@ The dataset used in this project is the Pima Indians Diabetes Dataset, which can
 `pickle`
 
 
+<br/>
+
+
 ## :gear: Installation
 
 Clone the repository and install the required dependencies using the following commands:
@@ -104,9 +108,16 @@ cd Diabetes-Prediction
 ```
 
 
+<br/>
+
+
 ## :play_or_pause_button: Usage
 
 The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and preprocessing the dataset, as well as implementing and evaluating the KNN, Logistic Regression, Random Forest, Support Vector Machine and Decision Tree models. To run the notebook, simply open it in Jupyter and run each cell in order.
+
+
+
+<br/>
 
 
 ## :rocket: Results
@@ -124,18 +135,32 @@ The Jupyter notebook Diabetes Prediction.ipynb contains the code for loading and
 
 </div>
 
+
+<br/>
+
+
 ## :construction: Conclusion
 
 In this project, we compared the accuracy of five different machine learning models as well as hypertuning parameters for predicting diabetes based on various health criteria. We found that Support Vector Machine was the most accurate model, with an accuracy of 83.12%. The above results also tells that Logistic Regression and Decision Tree are also performing good and hypertuing on Logistic Regression increases its accuracy around 2%. This project could be further improved by testing additional models and/or including additional health criteria in the dataset.
+
+
+<br/>
+
 
 ## :triangular_flag_on_post: Deployment
 
 Checkout the deployment repository [`here`](https://github.com/Priyanshu88/Diabestes-Prediction-Streamlit-App).
 
 
+<br/>
+
+
 ## :balance_scale: License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/Priyanshu88/Diabetes-Prediction/blob/main/LICENSE) file for details.
+
+
+<br/>
 
 
 ## :handshake: Contact
